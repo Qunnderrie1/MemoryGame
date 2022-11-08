@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  position: relative;
+}
+.App{
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:0;
+
+
+}
+
+.headerContainer{
+  background-color: darkslateblue;
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+  align-self: baseline;
+  color: rgb(255, 255, 255);
+}
+.scoreContainer{
+  display:flex;
+  justify-content: center;
+  gap: 80px;
+
+}
+h3{
+  font-size: 30px;
+  padding: 20px 0px;
+}
+h1{
+  font-size: 24px;
+  font-family: 'open sans';
+}
+.cardContainer{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  height: 350px;
+  min-width: 200px;
+  margin: 50px 20px;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 20px rgb(222, 222, 222);
+  border: 2px solid darkslateblue;
+
+}
+.buttonContainer{
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+}
+
+.yesButton{
+
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.3s ;
+  cursor: pointer;
+  
+}
+.headerText{
+  color: black;
+}
+.noButton{
+  cursor: pointer;
+  color:white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.3s ;
+
+}
+button:hover{
+  box-shadow: 2px 2px 20px rgb(133, 133, 133);
+}
+.textContainer{
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+
+}
+.textContainer p {
+  font-weight: 600;
+  
+}
+
+img{
+  width: 150px;
+}
+
