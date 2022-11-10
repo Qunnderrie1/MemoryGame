@@ -4,8 +4,6 @@ import Card from './Cards';
 import Header from './Header';
 
 
-
-
 class App extends Component {
   constructor(props){
     super(props)
@@ -52,16 +50,13 @@ class App extends Component {
 
   }
 
-
-
-
   handler(imageItem , userAnswer){
 
-    if(imageItem.wasViewed == userAnswer){
+    if(imageItem.wasViewed === userAnswer){
 
       let incrementedScore = this.state.score + 1;
 
-      if(incrementedScore == 10){
+      if(incrementedScore === 10){
         // User wins conditions
 
         alert("Congrats You have won!!!")
@@ -72,13 +67,12 @@ class App extends Component {
           bestScore : incrementedScore,
           images: this.state.images
         })
-
-
+        
       }else{
         // KEEP PLAYING CONDITIONS
-        this.state.images.map((item) =>{
-          if(item.image == imageItem.image){
-            item.wasViewed = true;
+        this.state.images.map((item) =>{    // eslint-disable-next-line
+          if(item.image === imageItem.image){
+             item.wasViewed = true;
           }
         });
 
@@ -95,9 +89,6 @@ class App extends Component {
       }
 
     }else{
-
-  
-
       // Reset Game
       this.state.images.forEach((item) => {
         item.wasViewed = false;
@@ -132,9 +123,7 @@ class App extends Component {
         </div>
       </div>
     );
-
   }
- 
 }
 
 export default App;

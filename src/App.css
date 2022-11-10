@@ -1,10 +1,12 @@
-body{
+body
+{
   margin: 0;
   padding: 0;
   font-family: 'Merriweather', serif;
   position: relative;
 }
 .App{
+
   text-align: center;
   display:flex;
   flex-direction: column;
@@ -15,7 +17,8 @@ body{
 
 }
 
-.headerContainer{
+.headerContainer
+{
   background-color: darkslateblue;
   width: 100%;
   padding: 20px;
@@ -23,7 +26,8 @@ body{
   align-self: baseline;
   color: rgb(255, 255, 255);
 }
-.scoreContainer{
+.scoreContainer
+{
   display:flex;
   justify-content: center;
   gap: 80px;
@@ -37,7 +41,8 @@ h1{
   font-size: 24px;
   font-family: 'open sans';
 }
-.cardContainer{
+.cardContainer
+{
   display:flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -53,14 +58,15 @@ h1{
   border: 2px solid darkslateblue;
 
 }
-.buttonContainer{
+.buttonContainer
+{
   margin-top: 20px;
   display: flex;
   gap: 40px;
 }
 
-.yesButton{
-
+.yesButton
+{
   color: white;
   padding: 5px 20px;
   border: none;
@@ -69,10 +75,12 @@ h1{
   cursor: pointer;
   
 }
-.headerText{
+.headerText
+{
   color: black;
 }
-.noButton{
+.noButton
+{
   cursor: pointer;
   color:white;
   padding: 10px 20px;
@@ -81,10 +89,12 @@ h1{
   transition: 0.3s ;
 
 }
-button:hover{
+button:hover
+{
   box-shadow: 2px 2px 20px rgb(133, 133, 133);
 }
-.textContainer{
+.textContainer
+{
   text-align: center;
   color: black;
   margin-top: 50px;
@@ -92,10 +102,10 @@ button:hover{
 }
 .textContainer p {
   font-weight: 600;
-  
 }
 
-img{
+img
+{
   width: 150px;
 }
 
