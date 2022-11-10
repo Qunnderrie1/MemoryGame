@@ -44,6 +44,26 @@ class App extends Component {
           description: "Cat Running",
           wasViewed: false
         },
+        {
+          image: "./Goku.gif",
+          description: "Goku",
+          wasViewed: false
+        },
+        {
+          image: "./Fred.gif",
+          description: "Fred Flinstone",
+          wasViewed: false
+        },
+        {
+          image: "./Shaggy.gif",
+          description: "Shaggy",
+          wasViewed: false
+        },
+        {
+          image: "./DaffyDuck.gif",
+          description: "Daffy Duck",
+          wasViewed: false
+        },
       ]
     }
     this.handler = this.handler.bind(this)
