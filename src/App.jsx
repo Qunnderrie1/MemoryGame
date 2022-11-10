@@ -51,7 +51,7 @@ class App extends Component {
         },
         {
           image: "./Fred.gif",
-          description: "Fred Flinstone",
+          description: "Fred Flintstone",
           wasViewed: false
         },
         {
